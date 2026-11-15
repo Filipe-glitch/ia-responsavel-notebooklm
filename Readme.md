@@ -82,6 +82,34 @@ Com base exclusivamente nas fontes fornecidas e nas informações discutidas nes
 
 Resultado obtido: O NotebookLM consolidou os conteúdos em cinco seções, incluindo riscos, cuidados, glossário e recomendações práticas.
 
+### Prompt 5 - Criação dos Slides
+
+Objetivo: criar materiais práticos de capacitação interna (FAQ corporativo e roteiro de slides) baseados no conteúdo estudado.
+
+Prompt utilizado:
+```bash
+Com base exclusivamente nas fontes fornecidas sobre IA Responsável, crie dois materiais práticos para capacitação interna:
+
+1. UM FAQ CORPORATIVO: Crie uma seção de Perguntas Frequentes (FAQ) com 5 perguntas e respostas práticas que os colaboradores de uma empresa costumam fazer ao utilizar ferramentas de IA generativa (focando em riscos, privacidade, dados confidenciais, alucinações e supervisão humana).
+
+2. UMA ESTRUTURA DE SLIDES PARA WORKSHOP: Monte um roteiro de apresentação dividido em 4 slides principais (Título/Conceitos, Os 5 Pilares Práticos, Melhores Práticas/Checklist, e Glossário Rápido). Para cada slide, traga os tópicos centrais que devem ser abordados.
+
+Não inclua informações externas que não estejam nas fontes.
+```
+
+Resultado obtido: O NotebookLM gerou os infográficos visuais e os conteúdos estruturados contendo o FAQ corporativo (focado em privacidade, dados confidenciais, alucinações, automação e Shadow AI) e a estrutura detalhada de slides com os pilares, toolkit e glossário de riscos.
+
+### Prompt 6 — Desenvolvimento do Playbook de Adoção de IA
+
+**Objetivo:** transformar os conhecimentos estudados sobre IA Responsável em um guia prático sobre adoção de IA em organizações.
+
+**Processo utilizado:**
+
+- **Primeira versão:** foi solicitado à IA um documento abrangente em Markdown, contemplando as etapas de adoção de IA em uma organização.
+- **Revisão:** após analisar a primeira versão, foi elaborado um segundo prompt para simplificar a linguagem, reduzir a complexidade técnica e adequar o conteúdo ao contexto de um guia introdutório.
+
+**Resultado obtido:** foi desenvolvido o *Playbook de Adoção de Inteligência Artificial — Guia Introdutório e Prático*, com orientações sobre identificação de oportunidades, entrevistas, avaliação de ferramentas, organização de demandas, capacitação e acompanhamento de resultados.
+
 ## 🩹 Cicatrizes e troubleshooting
 
 1. Limitação de acesso à fonte do Google
@@ -172,6 +200,16 @@ Aqui estão alguns dos principais infográficos estruturados para o uso seguro d
 ![Pilares da IA](assets/pilares_ia_confiavel.png)
 
 > 📥 **Documento Completenha:** A versão detalhada em PDF com todo o conteúdo e FAQs está disponível na pasta `/docs/` deste repositório, e todas as imagens complementares ficam na pasta `/assets/`.
+
+## 📘 Playbook de Adoção de Inteligência Artificial
+
+Como complemento ao Caderno Temático, foi desenvolvido um guia introdutório em Markdown sobre como uma organização pode estruturar iniciativas de adoção de IA.
+
+O material aborda desde o mapeamento de oportunidades e avaliação de ferramentas até a capacitação de colaboradores e o acompanhamento de indicadores.
+
+O documento foi elaborado com apoio de IA, passando por revisão e simplificação para tornar o conteúdo mais claro, prático e adequado ao público iniciante.
+
+**Arquivo:** `docs/playbook_adocao_ia.md`
 
 ## 🎓 Conclusão
 
