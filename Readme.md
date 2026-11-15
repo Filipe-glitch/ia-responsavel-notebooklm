@@ -157,6 +157,22 @@ Para utilizar a Inteligência Artificial de forma mais consciente e responsável
 - Mantenha supervisão humana: decisões ou situações relevantes não devem depender exclusivamente de sistemas de IA.
 - Monitore os sistemas: acompanhe o desempenho e reavalie seu comportamento ao longo do tempo.
 
+## 📊 Material de Capacitação e Governança (Gerado com NotebookLM)
+
+Como parte da expansão deste projeto, estruturei um material visual e prático voltado para orientação de equipes, contendo diretrizes de uso seguro, FAQs e glossário de riscos com base em fontes oficiais (IBM, Microsoft e Google).
+
+### 🔍 Prévia do Material de Capacitação
+
+Aqui estão alguns dos principais infográficos estruturados para o uso seguro de IA no dia a dia:
+
+**Fluxo de Ação Segura para Colaboradores:**
+![Toolkit do Colaborador](assets/toolkit.png)
+
+**Os 5 Pilares Práticos da IA Confiável:**
+![Pilares da IA](assets/pilares_ia_confiavel.png)
+
+> 📥 **Documento Completenha:** A versão detalhada em PDF com todo o conteúdo e FAQs está disponível na pasta `/docs/` deste repositório, e todas as imagens complementares ficam na pasta `/assets/`.
+
 ## 🎓 Conclusão
 
 A elaboração deste Caderno Temático permitiu compreender que a IA Responsável envolve não apenas tecnologia, mas também privacidade, segurança, transparência, confiabilidade e supervisão humana.
